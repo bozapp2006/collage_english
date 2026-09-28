@@ -1,0 +1,250 @@
+<title>Collage Privacy Policy</title>
+<style>
+  :root{
+    --bg:#faf7f2;
+    --surface:#ffffff;
+    --ink:#241f1c;
+    --ink-soft:#5c554e;
+    --ink-faint:#8b8377;
+    --line:#e8e1d6;
+    --accent:#c96f3f;
+    --accent-soft:#f3e3d8;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#1c1a17;
+      --surface:#242220;
+      --ink:#f3ede4;
+      --ink-soft:#b9b0a3;
+      --ink-faint:#847c70;
+      --line:#3a352e;
+      --accent:#e0895f;
+      --accent-soft:#3a2c22;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1c1a17;
+    --surface:#242220;
+    --ink:#f3ede4;
+    --ink-soft:#b9b0a3;
+    --ink-faint:#847c70;
+    --line:#3a352e;
+    --accent:#e0895f;
+    --accent-soft:#3a2c22;
+    color-scheme: dark;
+  }
+
+  *{ box-sizing: border-box; }
+  body{
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Source Sans 3", Arial, sans-serif;
+    padding-inline: 20px;
+    padding-block: 48px;
+  }
+  .page{
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  h1, h2{
+    font-family: "Fraunces", Georgia, serif;
+    text-wrap: balance;
+  }
+  .eyebrow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  .eyebrow .dot{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  h1{
+    font-size: clamp(28px, 5vw, 40px);
+    font-weight: 600;
+    margin: 0 0 8px;
+    color: var(--ink);
+  }
+  .meta{
+    color: var(--ink-faint);
+    font-size: 14px;
+    margin: 0 0 36px;
+  }
+  .intro{
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-bottom: 8px;
+  }
+  section{
+    padding-block: 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  section:last-of-type{
+    border-bottom: none;
+  }
+  h2{
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0 0 12px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  h2 .num{
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  p{
+    max-width: 62ch;
+    font-size: 15.5px;
+    line-height: 1.7;
+    color: var(--ink-soft);
+    margin: 0 0 12px;
+  }
+  ul{
+    margin: 0 0 12px;
+    padding-left: 20px;
+  }
+  li{
+    font-size: 15.5px;
+    line-height: 1.7;
+    color: var(--ink-soft);
+    margin-bottom: 6px;
+    max-width: 60ch;
+  }
+  strong{
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .badge-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 6px 0 4px;
+  }
+  .badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border-radius: 999px;
+    padding: 6px 12px;
+  }
+  footer{
+    margin-top: 36px;
+    padding-top: 28px;
+    border-top: 1px solid var(--line);
+  }
+  .contact-card{
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .contact-card .label{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .contact-card .value{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .fine{
+    font-size: 13px;
+    color: var(--ink-faint);
+    margin-top: 20px;
+  }
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+
+<div class="page">
+  <div class="eyebrow"><span class="dot"></span>Collage &mdash; Privacy Policy</div>
+  <h1>Your quotes stay on your phone.</h1>
+  <p class="meta">Effective date: September 27, 2026</p>
+
+  <div class="intro">
+    Collage is built to work offline, on your own device. This policy explains, in plain language, exactly what the app does and does not do with your information &mdash; because the honest answer is: almost nothing leaves your phone.
+  </div>
+
+  <section>
+    <h2><span class="num">01</span>What we collect</h2>
+    <p><strong>Collage does not collect any personal information.</strong> There is no account, no sign-in, and no name, email address, phone number, or location ever requested or transmitted.</p>
+    <div class="badge-row">
+      <span class="badge">No account required</span>
+      <span class="badge">No analytics</span>
+      <span class="badge">No advertising</span>
+      <span class="badge">No trackers</span>
+    </div>
+    <p>Everything you create in the app &mdash; favorites, personal notes on a quote, words you save, quotes you write yourself &mdash; is stored in a local database directly on your device, using standard iOS storage. We have no access to it and no copy of it exists anywhere else.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Content syncing</h2>
+    <p>Collage downloads its library of quotes, authors, and categories from our backend so the app's content can be updated over time. This is a one-way content download: your device asks for quotes, and quotes are sent back. No personal identifier, account, or usage data is attached to that request, and none of your own content (favorites, notes, custom quotes) is ever uploaded to it.</p>
+    <p>Once content has synced, Collage works fully offline.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Notifications</h2>
+    <p>If you turn on the daily quote reminder, it is scheduled entirely on your device using iOS's local notification system. No server is involved, no push token is generated, and nothing about your reminder schedule is sent anywhere.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Backup &amp; export</h2>
+    <p>If you export your collection to JSON or Excel, that file is created and saved through iOS's own share sheet, under your control. We never receive a copy of it. Importing quotes works the same way, entirely on your device.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Third parties</h2>
+    <p>Collage contains no third-party advertising SDKs, no analytics SDKs, and no crash-reporting SDKs. The only network connection the app makes is the one-way content sync described above.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Children's privacy</h2>
+    <p>Collage does not knowingly collect information from anyone, including children, because it does not collect personal information from any user. The app is suitable for a general audience.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>Changes to this policy</h2>
+    <p>If this policy ever changes &mdash; for example, if a future feature introduces an optional account or a paid subscription &mdash; this page will be updated and the effective date above will change accordingly.</p>
+  </section>
+
+  <footer>
+    <div class="contact-card">
+      <span class="label">Questions about this policy</span>
+      <span class="value">@collage_english on Instagram</span>
+    </div>
+    <p class="fine">Collage is developed by Barbaros Özdemir. This policy applies to the Collage iOS application.</p>
+  </footer>
+</div>
